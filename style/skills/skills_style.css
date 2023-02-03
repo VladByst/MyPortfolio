@@ -1,0 +1,115 @@
+.skills {
+   background-color: #333333;
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   font-family: Raleway-SemiBold;
+   width: 950px;
+}
+
+.skills__wrap {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding: 28px 10px;
+   width: 774px;
+}
+
+.skills__title {
+   width: 134px;
+}
+
+.skills__title h3 a {
+   color: #ffffff;
+   font-size: 32px;
+   text-transform: capitalize;
+}
+
+.skills__title h3 a:hover {
+   color: #e61c1c;
+   cursor: pointer;
+   -moz-text-shadow: 2px 2px 2px #ffffff;
+   text-shadow: 2px 2px 2px #ffffff;
+   -webkit-text-shadow: 2px 2px 2px #ffffff;
+}
+
+.skills__content {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 41px;
+   width: 692px;
+}
+
+.skills__column {
+   display: flex;
+}
+.column__block {
+   margin: 24px auto;
+   width: 100%;
+}
+.block__left:nth-child(1) {
+   background: url(../../img/skills/point.png) 241px 14px / 13px no-repeat,
+      url(../../img/skills/line-red.png) -31px 12px / 321px no-repeat,
+      url(../../img/skills/line.png) -10px 14px / 284px no-repeat;
+   padding: 15px 0px;
+}
+
+.block__left:nth-child(2) {
+   background: url(../../img/skills/point.png) 241px 14px / 13px no-repeat,
+      url(../../img/skills/line-red.png) -49px 12px / 335px no-repeat,
+      url(../../img/skills/line.png) -10px 14px / 284px no-repeat;
+   padding: 15px 0px;
+}
+
+.block__left:nth-child(3) {
+   background: url(../../img/skills/point.png) 254px 15px / 13px no-repeat,
+      url(../../img/skills/line-red.png) -30px 12px / 325px no-repeat,
+      url(../../img/skills/line.png) -10px 14px / 284px no-repeat;
+   padding: 15px 0px;
+}
+.block__right:nth-child(1) {
+   background: url(../../img/skills/point.png) 231px 15px / 13px no-repeat,
+      url(../../img/skills/line-red.png) -28px 13px / 302px no-repeat,
+      url(../../img/skills/line.png) -10px 14px / 284px no-repeat;
+   padding: 15px 0px;
+}
+
+.block__right:nth-child(2) {
+   background: url(../../img/skills/point.png) 231px 15px / 13px no-repeat,
+      url(../../img/skills/line-red.png) -27px 13px / 302px no-repeat,
+      url(../../img/skills/line.png) -10px 14px / 284px no-repeat;
+   padding: 15px 0px;
+}
+.block__right:nth-child(3) {
+   background: url(../../img/skills/point.png) 239px 15px / 13px no-repeat,
+      url(../../img/skills/line-red.png) -31px 12px / 316px no-repeat,
+      url(../../img/skills/line.png) -10px 14px / 284px no-repeat;
+   padding: 15px 0px;
+}
+
+.block__title strong {
+   color: #ffffff;
+   font-family: Raleway-Medium;
+   text-transform: uppercase;
+   font-size: 18px;
+   left: 5px;
+   position: relative;
+   top: -47px;
+}
+
+.block__title span {
+   color: #ffffff;
+   display: block;
+   font-family: Raleway-Medium;
+   font-size: 18px;
+   left: 282px;
+   position: relative;
+   top: -28px;
+   
+   
+}

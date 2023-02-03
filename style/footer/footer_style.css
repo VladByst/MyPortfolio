@@ -1,0 +1,23 @@
+.footer{
+   background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: Raleway-SemiBold;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+.footer__social{
+   margin: 0 auto;
+}
+
+.footer__social a{
+   fill: #333333;
+}
+
+.footer__social a:hover{
+   cursor: pointer;
+   fill: #ff6666;
+}

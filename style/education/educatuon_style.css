@@ -1,0 +1,26 @@
+.education__wrap{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   width: 774px;
+   padding: 26px 10px;
+}
+
+.education__title{
+   width: 155px;
+}
+
+.education__title h3 a{
+   color: #333333;
+   font-size: 32px;
+   text-transform: capitalize;
+}
+
+.education__title h3 a:hover{
+   color: #e61c1c;
+   cursor: pointer;
+   -webkit-text-shadow: 2px 2px 2px #000;
+   -moz-text-shadow: 2px 2px 2px #000;
+   text-shadow: 2px 2px 2px #000;
+}

@@ -1,0 +1,81 @@
+.sidebar {
+   background-color: #333333;
+   color: #ffffff;
+   font-family: Raleway-Medium;
+   float: left;
+   width: 270px;
+}
+
+.image {
+   width: 270px;
+}
+
+.image .foto {
+}
+
+.image .close {
+   left: 45px;
+   position: relative;
+   top: -160px;
+}
+
+.sidebar h1 {
+   color: #ffffff;
+   font-size: 32px;
+   margin-top: -90px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+}
+
+.sidebar h1 a:hover {
+   color: #e61c1c;
+   cursor: pointer;
+   -moz-text-shadow: 2px 2px 2px #000;
+   text-shadow: 2px 2px 2px #000;
+   -webkit-text-shadow: 2px 2px 2px #000;
+}
+
+.sidebar p {
+   font-size: 16px;
+   padding-left: 15px;
+}
+
+.menu ul {
+   background-color: #333333;
+   padding-top: 15px;
+}
+.menu ul li {
+   border-bottom: 1px solid #8a8585;
+   font-size: 22px;
+   padding: 15px;
+   text-transform: capitalize;
+}
+
+.menu ul li:hover {
+   background-color: #8a8585;
+   cursor: pointer;
+}
+
+.menu ul li a {
+   color: #ffffff;
+}
+
+.menu ul a:hover {
+   color: #e61c1c;
+   cursor: pointer;
+   -moz-text-shadow: 2px 2px 2px #000;
+   text-shadow: 2px 2px 2px #000;
+   -webkit-text-shadow: 2px 2px 2px #000;
+}
+.sidebar__img{
+   fill: #000000;
+   width: 50px;
+   position: fixed;
+   top: 882px;
+    left: 415px;
+}
+
+.sidebar__img a:hover{
+   cursor: pointer;
+   fill: #887e7e;
+}

@@ -1,0 +1,114 @@
+.work{
+   background-color: #ffffff;
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   font-family: Raleway-SemiBold;
+   width: 950px;
+}
+.work__wrap{
+   border-bottom: 2px solid #cccccc;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   width: 774px;
+   padding: 28px 10px;
+}
+
+.work__title{
+   width: 260px;
+}
+
+.work__title h3 a{
+   color: #333333;
+   font-size: 32px;
+   text-transform: capitalize;
+}
+
+.work__title h3 a:hover{
+   color: #e61c1c;
+   cursor: pointer;
+   -webkit-text-shadow: 2px 2px 2px #000;
+   -moz-text-shadow: 2px 2px 2px #000;
+   text-shadow: 2px 2px 2px #000;
+}
+
+.work__content {
+   background: url(../../img/work/left.png) 0px 54px / 348px 116px no-repeat, url(../../img/work/left.png) 0px 305px / 348px 116px no-repeat, url(../../img/work/right.png) 387px -2px / 348px 116px no-repeat, url(../../img/work/right.png) 387px 248px / 348px 116px no-repeat, url(../../img/work/center_1.png) 348px 0px no-repeat, url(../../img/work/center_2.png) 348px 1px no-repeat, url(../../img/work/center_1.png) 347px 125px no-repeat, url(../../img/work/center_2.png) 348px 126px no-repeat,url(../../img/work/center_1.png) 347px 250px no-repeat, url(../../img/work/center_2.png) 348px 251px no-repeat, url(../../img/work/center_1.png) 347px 375px no-repeat, url(../../img/work/center_2.png) 348px 376px no-repeat, url(../../img/work/line.png) 358px 0px / 16px 438px no-repeat;
+   height: 500px;
+   margin-top: 32px;
+   width: 740px;
+}
+
+.column__left{
+   float: left;
+   height: 100%;
+   width: 325px;
+   
+}
+
+.left__top{
+   left: 0px;
+   position: relative;
+   padding: 15px 0px 0px 16px;
+   top: 55px;
+}
+
+.left__bottom{
+   left: 0px;
+   position: relative;
+   padding: 15px 0px 0px 16px;
+   top: 211px;
+}
+
+.column__right{
+   float: right;
+   height: 100%;
+   width: 325px;
+}
+.right__top{
+   left: -0px;
+   position: relative;
+   padding: 15px 0px 0px 16px;
+   top: 0px;
+}
+
+.right-bottom{
+   left: 0px;
+   position: relative;
+   padding: 15px 0px 0px 16px;
+   top: 155px;
+}
+.title{
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+
+.title strong{
+   color: #ffffff;
+   font-family: Raleway-Regular;
+}
+
+.title span{
+   color: #cccccc;
+   font-family: Raleway-Medium;
+}
+
+.subtitle{
+   font-family: Raleway-Medium;
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+
+.subtitle span{
+   color: #ff6666;
+   padding-top: 15px;
+}
+
+.text span{
+   color: #cccccc;
+   font-size: 14px;
+   font-family: Raleway-Regular;
+}

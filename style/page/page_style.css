@@ -1,0 +1,9 @@
+.page{
+   display: flex;
+   align-items: stretch;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   margin: 0 auto;
+   width: 1220px;
+}
