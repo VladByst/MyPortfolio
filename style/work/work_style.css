@@ -7,14 +7,15 @@
    font-family: Raleway-SemiBold;
    width: 950px;
 }
+
 .work__wrap{
    border-bottom: 2px solid #cccccc;
    display: flex;
    flex-direction: column;
    flex-wrap: nowrap;
    justify-content: space-between;
-   width: 774px;
    padding: 28px 10px;
+   width: 774px;
 }
 
 .work__title{
@@ -75,7 +76,7 @@
    top: 0px;
 }
 
-.right-bottom{
+.right__bottom{
    left: 0px;
    position: relative;
    padding: 15px 0px 0px 16px;

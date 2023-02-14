@@ -40,14 +40,12 @@
    align-items: center;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: space-around;
    padding-top: 41px;
-   width: 692px;
+   width: 740px;
 }
 
-.skills__column {
-   display: flex;
-}
+
 .column__block {
    margin: 24px auto;
    width: 100%;

@@ -2,10 +2,39 @@
 <html lang="en">
 
 <head>
+   <meta property="og:title" content="Портфолио Владислав Быстров">
+   <meta property="og:title" content="скиллс.рф">
+   <meta property="og:title" content="freelance">
+   <meta name="description"
+      content="Vladislav Bystrov, портфолио, скиллс.рф, лендинг пейдж, сайт визитка, личное портфолио">
+   <meta name="keywords" content="портфолио, portfolio, Vladislav Bystrov, Владислав Быстров">
+   <link rel="shortcut icon" href="img/favicon/favicon.svg" type="image/x-icon">
+   <meta name="yandex-verification" content="a6612f1c6d5c5abf" />
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style/style.css">
+   <!-- Yandex.Metrika counter -->
+   <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+         m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+         m[i].l = 1 * new Date();
+         for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+         k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+      })
+         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(92378520, "init", {
+         clickmap: true,
+         trackLinks: true,
+         accurateTrackBounce: true,
+         webvisor: true
+      });
+   </script>
+   <noscript>
+      <div><img src="https://mc.yandex.ru/watch/92378520" style="position:absolute; left:-9999px;" alt="" /></div>
+   </noscript>
+   <!-- /Yandex.Metrika counter -->
    <title>Portfolio Vladislav Bystrov</title>
 </head>
 
@@ -15,10 +44,10 @@
       <div class="sidebar">
          <!-- image -->
          <div class="image">
-            <a name="up"><img class="foto" src="img/sidebar/IMG_20190914_193813.jpg" alt="">
-               <img class="close" src="img/sidebar/close.png" alt=""></a>
+            <a id="up"><img class="foto" src="img/sidebar/IMG_20190914_193813.jpg" alt="Владислав Быстров">
+               <img class="close" src="img/sidebar/close.png" alt="Vladislav"></a>
          </div>
-         <h1><a name="#">Vladislav</a></h1>
+         <h1><a id="#">Vladislav</a></h1>
          <p>Ui/ux Expert</p>
          <!-- menu -->
          <nav class="menu">
@@ -32,9 +61,10 @@
                <li><a href="#contacts">contacts</a></li>
             </ul>
          </nav>
+         
          <div class="sidebar__img">
             <a href="#up">
-               <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
+               <svg xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
                   viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
                   <g transform="translate(0.000000,45.000000) scale(0.017308,-0.017308)">
                      <path d="M1228 2580 c-25 -14 -59 -53 -114 -132 -43 -62 -206 -293 -362 -512
@@ -52,13 +82,24 @@
       </div>
       <!-- main -->
       <main class="main">
+         <nav class="menu__cow">
+            <ul>
+               <li><a href="#">home</a></li>
+               <li><a href="#about">about me</a></li>
+               <li><a href="#work">work experience</a></li>
+               <li><a href="#education">education</a></li>
+               <li><a href="#skills">my skills</a></li>
+               <li><a href="#portfolio">portfolio</a></li>
+               <li><a href="#contacts">contacts</a></li>
+            </ul>
+         </nav>
          <!-- header  сделал-->
          <div class="header">
             <!-- title -->
-            <div class="header__title">Lets Make Something Great</div>
+            <div class="header__title"><h2>Lets Make Something Great</h2></div>
             <!-- subtitle -->
-            <div class="header__subtitle">"I’m an UI designer that prides ourself on being strategic brand partners and
-               awesome product providers"</div>
+            <div class="header__subtitle"><h3>"I’m an UI designer that prides ourself on being strategic brand partners and
+               awesome product providers"</h3></div>
             <!-- btn -->
             <div class="btn"><a href="#">Hire Me!</a></div>
          </div>
@@ -70,7 +111,7 @@
             <div class="about__wrap">
                <div class="about__content">
                   <div class="content__title">
-                     <h3><a name="about">about me</a></h3>
+                     <h3><a id="about">about me</a></h3>
                      <div class="red__line"></div>
                   </div>
                   <div class="content__text">
@@ -88,7 +129,7 @@
                   </div>
                </div>
                <div class="about__img">
-                  <img src="img/about/imgonline-com-ua-CompressBySize-T9Qlg9AVqjgv.jpg" alt="Фото">
+                  <img src="img/about/IMG_20190509_115448.jpg" alt="Владислав">
                </div>
             </div>
             <!-- wrap -->
@@ -99,7 +140,7 @@
          <section class="work">
             <div class="work__wrap">
                <div class="work__title">
-                  <h3><a name="work">work experience</a></h3>
+                  <h3><a id="work">work experience</a></h3>
                </div>
                <div class="red__line"></div>
                <div class="work__content">
@@ -107,16 +148,16 @@
                   <div class="column__left">
                      <!-- left top -->
                      <div class="left__top">
-                        <div class="title"> <strong>CEO &#38 Founder</strong> <span>&#64DeviserWeb</span> </div>
-                        <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
-                        <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                              illo.</span></div>
+                        <div class="title"> <strong>Freight forwarder</strong> <span>&#64;SVM</span> </div>
+                        <div class="subtitle"><span>May 2018 - May 2021</span></div>
+                        <div class="text"><span>Delivery of construction materials to the client. Delivery on
+                              invoices.</span></div>
                      </div>
                      <!-- left top -->
                      <!-- left bottom -->
                      <div class="left__bottom">
-                        <div class="title"> <strong>UI/UX Designer </strong> <span>&#64Academy</span> </div>
-                        <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
+                        <div class="title"> <strong>Freelance</strong> <span>&#64;Freelance</span> </div>
+                        <div class="subtitle"><span>April 2022 - Until now</span></div>
                         <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
                               illo.</span></div>
                      </div>
@@ -127,17 +168,17 @@
                   <div class="column__right">
                      <!-- right top -->
                      <div class="right__top">
-                        <div class="title"><strong>Marketing Manager </strong> <span>&#64StarLab</span></div>
-                        <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
-                        <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                              illo.</span></div>
+                        <div class="title"><strong>Car mechanic</strong> <span>&#64;Dakar</span></div>
+                        <div class="subtitle"><span>February 2014 - Martha 2018</span></div>
+                        <div class="text"><span>Car repair, replacement of consumables, oil and filter
+                              replacement.</span></div>
                      </div>
                      <!-- right bottom-->
-                     <div class="right-bottom">
-                        <div class="title"><strong>Creative Director </strong> <span>&#64Academy</span></div>
-                        <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
-                        <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                              illo.</span></div>
+                     <div class="right__bottom">
+                        <div class="title"><strong>Storekeeper</strong> <span>&#64;Agave-M</span></div>
+                        <div class="subtitle"><span>May 2021 - August 2022</span></div>
+                        <div class="text"><span>Assembling orders, receiving incoming goods. Filling out documentation.
+                              Inventory.</span></div>
                      </div>
                      <!-- right bottom-->
                   </div>
@@ -151,7 +192,7 @@
          <section class="work">
             <div class="education__wrap">
                <div class="education__title">
-                  <h3><a name="education">education</a></h3>
+                  <h3><a id="education">education</a></h3>
                </div>
                <div class="red__line"></div>
                <div class="work__content">
@@ -159,7 +200,7 @@
                   <div class="column__left">
                      <!-- left top -->
                      <div class="left__top">
-                        <div class="title"> <strong>CEO &#38 Founder</strong> <span>&#64DeviserWeb</span> </div>
+                        <div class="title"> <strong>CEO &#38; Founder</strong> <span>&#64;DeviserWeb</span> </div>
                         <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
                         <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
                               illo.</span></div>
@@ -167,7 +208,7 @@
                      <!-- left top -->
                      <!-- left bottom -->
                      <div class="left__bottom">
-                        <div class="title"> <strong>UI/UX Designer </strong> <span>&#64Academy</span> </div>
+                        <div class="title"> <strong>UI/UX Designer </strong> <span>&#64;Academy</span> </div>
                         <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
                         <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
                               illo.</span></div>
@@ -179,14 +220,14 @@
                   <div class="column__right">
                      <!-- right top -->
                      <div class="right__top">
-                        <div class="title"><strong>Marketing Manager </strong> <span>&#64StarLab</span></div>
+                        <div class="title"><strong>Marketing Manager </strong> <span>&#64;StarLab</span></div>
                         <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
                         <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
                               illo.</span></div>
                      </div>
                      <!-- right bottom-->
-                     <div class="right-bottom">
-                        <div class="title"><strong>Creative Director </strong> <span>&#64Academy</span></div>
+                     <div class="right__bottom">
+                        <div class="title"><strong>Creative Director </strong> <span>&#64;Academy</span></div>
                         <div class="subtitle"><span>Jan 2013 - Dec 2014</span></div>
                         <div class="text"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
                               illo.</span></div>
@@ -204,7 +245,7 @@
             <div class="skills__wrap">
                <!-- title -->
                <div class="skills__title">
-                  <h3><a name="skills">my skills</a></h3>
+                  <h3><a id="skills">my skills</a></h3>
                </div>
                <!-- title -->
                <!-- repeat -->
@@ -270,7 +311,7 @@
          <section class="portfolio">
             <div class="portfolio__wrap">
                <div class="work__title">
-                  <h3><a name="portfolio">portfolio</a></h3>
+                  <h3><a id="portfolio">portfolio</a></h3>
                </div>
                <div class="red__line"></div>
                <div class="portfolio__content">
@@ -285,10 +326,14 @@
                         <div id="slides">
                            <div id="overflow">
                               <div class="image">
-                                 <article><img src="img/portfolio/2023-02-02_11-07-47.png" alt=""></article>
-                                 <article><img src="img/portfolio/2023-02-02_11-11-57.png" alt=""></article>
-                                 <article><img src="img/portfolio/2023-02-02_11-13-21.png" alt=""></article>
-                                 <article><img src="img/portfolio/2023-02-02_11-14-36.png" alt=""></article>
+                                 <article><img src="img/portfolio/2023-02-02_11-07-47.png" alt="портфолио владислав">
+                                 </article>
+                                 <article><img src="img/portfolio/2023-02-02_11-11-57.png" alt="Portfolio Vladislav">
+                                 </article>
+                                 <article><img src="img/portfolio/2023-02-02_11-13-21.png" alt="portfolio vladislav">
+                                 </article>
+                                 <article><img src="img/portfolio/2023-02-02_11-14-36.png" alt="Портфолио Владислав">
+                                 </article>
                               </div>
                            </div>
                         </div>
@@ -319,19 +364,17 @@
          <footer class="footer">
             <div class="work__wrap">
                <div class="work__title">
-                  <h3><a name="contacts">contacts</a></h3>
+                  <h3><a id="contacts">contacts</a></h3>
                </div>
                <div class="red__line"></div>
                <div class="footer__social">
                   <!-- GitHab -->
                   <a href="https://github.com/VladByst" target="_blank" rel="noopener noreferrer">
-                     <?xml version="1.0" standalone="no"?>
-                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-                  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
-                     viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
-                  
-                     <g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)">
-                        <path d="M44 438 c-37 -17 -44 -51 -44 -213 0 -165 7 -196 47 -214 32 -15 324
+                     <svg xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
+                        viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
+
+                        <g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)">
+                           <path d="M44 438 c-37 -17 -44 -51 -44 -213 0 -165 7 -196 47 -214 32 -15 324
                   -15 356 0 40 18 47 49 47 214 0 165 -7 196 -47 214 -31 14 -330 14 -359 -1z
                   m224 -81 c4 -20 -25 -34 -40 -19 -15 15 -1 44 19 40 10 -2 19 -11 21 -21z m72
                   -42 c0 -8 7 -15 15 -15 8 0 15 -9 15 -20 0 -11 -7 -20 -16 -20 -12 0 -14 -9
@@ -342,51 +385,49 @@
                   17 -27 41 0 17 6 33 13 36 15 5 11 60 -4 70 -15 9 -10 56 7 75 20 22 114 23
                   114 1z m58 -65 c3 -72 1 -77 -18 -77 -18 0 -20 6 -20 81 0 71 2 80 18 77 14
                   -3 17 -16 20 -81z" />
-                        <path d="M127 264 c-16 -16 -7 -44 14 -44 15 0 20 5 17 22 -3 22 -19 33 -31
+                           <path d="M127 264 c-16 -16 -7 -44 14 -44 15 0 20 5 17 22 -3 22 -19 33 -31
                   22z" />
-                        <path d="M115 109 c-8 -12 -5 -16 15 -19 29 -4 40 0 40 15 0 17 -45 21 -55 4z" />
-                     </g>
-                  </svg>
+                           <path d="M115 109 c-8 -12 -5 -16 15 -19 29 -4 40 0 40 15 0 17 -45 21 -55 4z" />
+                        </g>
+                     </svg>
                   </a>
                   <!-- GitHab -->
 
-                  <!-- instagram -->
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
-                     <?xml version="1.0" standalone="no"?>
-                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-                  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
-                     viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
-                  
-                     <g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)">
-                        <path d="M59 435 c-46 -25 -59 -69 -59 -204 0 -208 17 -226 220 -226 117 0
-                  139 3 167 20 52 31 66 81 62 224 -4 129 -16 161 -70 188 -35 19 -286 17 -320
-                  -2z m309 -89 c-2 -13 -10 -21 -23 -21 -23 0 -33 34 -14 45 20 13 40 -1 37 -24z
-                  m-76 -26 c58 -45 61 -129 7 -174 -40 -34 -70 -41 -114 -26 -45 15 -75 61 -75
-                  114 0 30 7 45 34 72 29 29 41 34 79 34 29 0 53 -7 69 -20z" />
-                        <path d="M170 280 c-36 -36 -21 -102 27 -121 35 -13 77 4 92 37 16 35 14 48
-                  -10 78 -26 33 -79 36 -109 6z" />
-                     </g>
-                  </svg>
+                  <!-- одноклассники -->
+                  <a href="https://ok.ru/feed" target="_blank" rel="noopener noreferrer">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
+                        viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
+
+                        <g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)">
+                           <path d="M53 430 c-42 -17 -53 -58 -53 -198 0 -214 9 -222 224 -222 216 0 221
+                        5 221 223 l0 149 -33 29 -32 29 -153 -1 c-83 0 -162 -4 -174 -9z m217 -100
+                        c41 -41 10 -110 -49 -110 -30 0 -71 38 -71 65 0 7 9 24 21 39 25 32 70 35 99
+                        6z m-45 -123 c17 0 39 2 50 4 27 5 32 -27 6 -36 -26 -8 -26 -17 -1 -40 15 -14
+                        17 -21 9 -31 -9 -11 -17 -10 -41 7 l-29 21 -24 -22 c-24 -23 -45 -20 -45 6 0
+                        7 9 19 20 26 23 15 26 28 6 28 -19 0 -29 17 -22 37 4 10 12 13 24 7 9 -4 31
+                        -7 47 -7z" />
+                           <path d="M197 297 c-8 -21 8 -39 29 -35 27 5 25 42 -2 46 -12 2 -24 -3 -27
+                        -11z" />
+                        </g>
+                     </svg>
                   </a>
-                  <!-- instagram -->
+                  <!-- одноклассники -->
 
                   <!-- linkedin -->
                   <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
-                     <?xml version="1.0" standalone="no"?>
-                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-                  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
-                     viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
-                  
-                     <g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)">
-                        <path d="M20 401 c-6 -12 -10 -93 -10 -195 0 -222 -16 -206 212 -206 223 0
-                  208 -15 208 213 0 156 -2 176 -18 190 -16 15 -45 17 -200 17 -169 0 -182 -1
-                  -192 -19z m124 -74 c9 -14 7 -21 -7 -32 -33 -24 -71 11 -46 42 15 18 39 13 53
-                  -10z m4 -155 l3 -92 -31 0 -30 0 0 93 0 93 28 -2 27 -1 3 -91z m193 69 c15
-                  -18 19 -39 19 -92 l0 -69 -35 0 -34 0 -3 68 c-3 59 -5 67 -23 67 -18 0 -20 -8
-                  -23 -67 l-3 -68 -34 0 -35 0 0 88 c0 49 2 91 4 93 2 2 37 4 76 4 63 0 74 -3
-                  91 -24z" />
-                     </g>
-                  </svg>
+
+                     <svg xmlns="http://www.w3.org/2000/svg" width="45.000000pt" height="45.000000pt"
+                        viewBox="0 0 45.000000 45.000000" preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)">
+                           <path d="M20 401 c-6 -12 -10 -93 -10 -195 0 -222 -16 -206 212 -206 223 0
+                                       208 -15 208 213 0 156 -2 176 -18 190 -16 15 -45 17 -200 17 -169 0 -182 -1
+                                       -192 -19z m124 -74 c9 -14 7 -21 -7 -32 -33 -24 -71 11 -46 42 15 18 39 13 53
+                                       -10z m4 -155 l3 -92 -31 0 -30 0 0 93 0 93 28 -2 27 -1 3 -91z m193 69 c15
+                                       -18 19 -39 19 -92 l0 -69 -35 0 -34 0 -3 68 c-3 59 -5 67 -23 67 -18 0 -20 -8
+                                       -23 -67 l-3 -68 -34 0 -35 0 0 88 c0 49 2 91 4 93 2 2 37 4 76 4 63 0 74 -3
+                                       91 -24z" />
+                        </g>
+                     </svg>
                   </a>
 
                   <!-- linkedin -->
@@ -398,8 +439,6 @@
          <!-- footer -->
       </main>
       <!-- main -->
-
-
    </div>
 </body>
 

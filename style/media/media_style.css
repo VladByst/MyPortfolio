@@ -1,0 +1,137 @@
+/* min-width: 1281px */
+@media (min-width: 1281px) {
+   .menu__cow{
+      display: none;
+   }
+}
+/* max-width: 1280px */
+@media (max-width: 1280px) {
+   .page {
+      margin: 0 auto;
+      width: 1190px;
+   }
+   .sidebar {
+      width: 220px;
+   }
+   .image #up .foto{
+      width: 274px;
+      z-index: 2;
+      position: relative;
+   }
+   .image #up .close{
+      z-index: 3;
+   }
+   .sidebar h1{
+      position: relative;
+      z-index: 4;
+   }
+   .sidebar p{
+      position: relative;
+      z-index: 4;
+   }
+   .menu ul {
+      padding-top: 0px;
+   }
+   .menu ul li{
+      padding: 10px;
+   }
+   .menu__cow{
+      display: none;
+   }
+
+   .sidebar__img {
+      top: 555px;
+      left: 79px;
+   }
+   .sidebar__img a #up{
+      width: 35px;
+   }
+   .header{
+      background: url(../../img/header/Untitled-1.png) 0px 1px /970px 325px no-repeat;
+   }
+   .about,
+   .work,
+   .skills,
+   .portfolio,
+   .footer {
+      width: 887px;
+   }
+}
+/*закончилось max-width: 1280px */
+
+/*max-width: 1024px;  */
+@media (max-width: 1024px){
+   .page{
+      display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 970px;
+    align-content: center;
+   }
+   .main{
+      height: 100%;
+   }
+
+   .sidebar{
+      display: none;
+   }
+   .header{
+      display: none;
+   }
+   .menu__cow{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      position: fixed;
+      top: 0px;
+      z-index: 5;
+      width: 100%;
+   }
+  
+   .menu__cow ul {
+      width: 100%;
+      background-color: #333333;
+      padding-top: 15px;
+   }
+   .menu__cow ul li{
+      float: left;
+      font-size: 22px;
+   padding: 15px;
+   text-transform: capitalize;
+   }
+   .menu__cow ul li:hover {
+      background-color: #8a8585;
+      cursor: pointer;
+   }
+
+   .menu__cow ul li a {
+      text-align: center;
+      color: #ffffff;
+   }
+   
+   .menu__cow ul a:hover {
+      color: #e61c1c;
+      cursor: pointer;
+      -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+      -webkit-text-shadow: 2px 2px 2px #000;
+   }
+
+   .about, .work, .portfolio, .footer{
+      width: 966px;
+   }
+   .skills{
+      width: 761px;
+   }
+   .skills__wrap{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      width: 774px;
+      padding: 26px 10px;
+   }
+}
+/*закончилось max-width: 1024px */
